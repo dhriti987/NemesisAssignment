@@ -1,0 +1,11 @@
+.editPopUp{
+    position: absolute;
+    background-color: bisque;
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: none;
+}
