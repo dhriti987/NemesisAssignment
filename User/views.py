@@ -35,6 +35,6 @@ class UserUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
 def home(request):
     return render(request,"home.html")
 def sign_up(request):
-    return render(request,"signUp.html")
+    return render(request,"signup.html")
 def login(request):
     return render(request,"login.html")
